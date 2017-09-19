@@ -18,7 +18,7 @@ To have types for a specific library, run the following command.
 
 ```
 // install d3 typings 
-typings install --save --global dt~d3
+typings install d3=github:DefinitelyTyped/DefinitelyTyped/d3/d3.d.ts#7d3a939fbe55576fad2e074d007f7cc671aa0e78 --source dt --global
 ```
 
 You should now have a typings directory in your visual project.
